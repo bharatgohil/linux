@@ -57,7 +57,7 @@
 		#address-cells = <1>;
 		#size-cells = <1>;
 		ranges;
-
+		bootargs = "console=ttyS0,115200n1 root=/dev/mmcblk0p2 rootwait rootfstype=ext4";
 		framebuffer-hdmi {
 			compatible = "allwinner,simple-framebuffer",
 				     "simple-framebuffer";
